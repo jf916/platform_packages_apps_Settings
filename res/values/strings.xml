@@ -13058,4 +13058,7 @@
 
     <!-- jOS Version info -->
     <string name="jos_version">jOS Version</string>
+
+    <!-- jOS Settings Shortcuts -->
+    <string name="jOS_audio_settings">jOS Sound Settings</string>
 </resources>

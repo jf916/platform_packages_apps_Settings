@@ -94,6 +94,12 @@
         settings:userRestriction="no_adjust_volume"
         settings:controller="com.android.settings.notification.AlarmVolumePreferenceController"/>
 
+    <Preference
+        android:key="jOS_SoundSettings"
+        android:title="@string/jOS_audio_settings"
+        android:order="-135"
+            settings:controller="com.android.settings.jOS.jOSSoundLinkPreferenceController"/>
+    
     <!-- TODO(b/174964721): make this a PrimarySwitchPreference -->
     <!-- Interruptions -->
     <com.android.settingslib.RestrictedPreference
