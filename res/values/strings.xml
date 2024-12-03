@@ -13729,4 +13729,7 @@
 
     <string name="battery_share_description">Charge other devices by placing them on the back of your phone</string>
     <string name="battery_share">Battery share</string>
+
+    <!-- jOS Version info -->
+    <string name="jos_version">jOS Version</string>
 </resources>
