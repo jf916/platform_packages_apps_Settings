@@ -16,7 +16,6 @@
 
 package com.android.settings;
 
-import android.app.Application;
 import android.content.Context;
 import android.content.pm.PackageManager;
 import android.database.ContentObserver;
@@ -53,11 +52,13 @@ import com.google.android.setupcompat.util.WizardManagerHelper;
 import java.lang.ref.WeakReference;
 import java.util.List;
 
+import io.github.dot166.jLib.app.jLIBCoreApp;
+
 /** Settings application which sets up activity embedding rules for the large screen device. */
 @ProvidePreferenceScreenOptions(
         codegenCollector = "com.android.settings/PreferenceScreenCollector/get"
 )
-public class SettingsApplication extends Application {
+public class SettingsApplication extends jLIBCoreApp {
 
     private WeakReference<SettingsHomepageActivity> mHomeActivity = new WeakReference<>(null);
     @Nullable private BiometricsEnvironment mBiometricsEnvironment;
