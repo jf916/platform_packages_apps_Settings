@@ -44,7 +44,7 @@
     <!-- Events -->
     <SwitchPreferenceCompat
         android:key="zen_mode_events"
-        android:title="@string/zen_mode_events"/>>
+        android:title="@string/zen_mode_events"/>
 
     <SwitchPreferenceCompat
         android:key="zen_mode_vibrate"
