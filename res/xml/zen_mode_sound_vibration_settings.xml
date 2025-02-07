@@ -46,10 +46,4 @@
         android:key="zen_mode_events"
         android:title="@string/zen_mode_events"/>
 
-    <SwitchPreferenceCompat
-        android:key="zen_mode_vibrate"
-        android:title="@string/vibrate_dnd"
-        android:summary="@string/vibrate_dnd_summary"
-        settings:controller="com.android.settings.notification.zen.VibrateZenPreferenceController" />
-
 </PreferenceScreen>

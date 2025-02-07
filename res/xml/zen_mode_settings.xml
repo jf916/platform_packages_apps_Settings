@@ -73,6 +73,12 @@
             android:key="zen_mode_block_effects_settings"
             android:title="@string/zen_mode_restrict_notifications_title"
             android:fragment="com.android.settings.notification.zen.ZenModeRestrictNotificationsSettings" />
+
+        <SwitchPreference
+            android:key="zen_mode_vibrate"
+            android:title="@string/vibrate_dnd"
+            android:summary="@string/vibrate_dnd_summary"
+            settings:controller="com.android.settings.notification.zen.VibrateZenPreferenceController" />
     </PreferenceCategory>
 
     <!-- Footer that shows if user is put into alarms only or total silence mode by an app -->
