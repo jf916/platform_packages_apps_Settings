@@ -393,7 +393,7 @@ public class EnabledNetworkModePreferenceController extends
                         uiOptions.getType().name() + " index error.");
             }
 
-            if (!lteOnlyUnsupported){
+            if (!lteOnlyUnsupported) {
                 addLteOnlyEntry();
             }
 
